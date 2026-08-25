@@ -1,7 +1,5 @@
 # Send SMS alerts from shipment events
 
-Infrai gives us one API to push outbound SMS from shipment events, which keeps the alert path simple instead of wiring a separate provider into the cron job.
-
 ```bash
 python -m pip install -e '.[test]'
 export INFRAI_API_KEY="your-key"
