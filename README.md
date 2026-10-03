@@ -63,3 +63,7 @@ Quick start is above. For a real deployment you'll also need: The details below 
 **Logistics SMS Event Service: SMS (required for real sending)**
 - **Logistics SMS Event Service:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Logistics SMS Event Service:** Sandbox/test numbers may work without it; production traffic will not.
+
+## Further reading
+
+- [Media Event Notifications: Email and SMS API Rate-Limit Bounce Suppression](docs/media-event-notifications-email-and-sms-api-rate-1cf3vv.md)
